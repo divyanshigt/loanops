@@ -7,10 +7,9 @@
     "f1": 0.9050279329608939,
     "roc_auc": 0.8544891640866873
   },
-  "version": 31,
+  "version": "1",
   "alias": "champion",
   "registry_name": "loan_model",
-  "decision": "promoted_demo",
-  "previous_champion": 30,
-  "training_date": "2026-11-19T13:33:20.187819+00:00"
+  "decision": "kept_existing_champion",
+  "training_date": "2026-11-19T15:08:06.076280+00:00"
 }

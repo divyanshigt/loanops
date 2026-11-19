@@ -57,12 +57,12 @@ stages:
     outs:
     - path: models/best_model.joblib
       hash: md5
-      md5: d368b697d41e0b3ba7e9a961a55ddc44
-      size: 6519
+      md5: d2a37a7b597b44bda8fab04b4acf56ef
+      size: 6471
     - path: models/model_info.json
       hash: md5
-      md5: 546fa10e6c361afdfd231d4e24c930c7
-      size: 409
+      md5: 8bdd95bec42da3513ecb2ee20d399bef
+      size: 394
   evaluate:
     cmd: python -m src.evaluate
     deps:
@@ -72,8 +72,8 @@ stages:
       size: 8728
     - path: models/best_model.joblib
       hash: md5
-      md5: d368b697d41e0b3ba7e9a961a55ddc44
-      size: 6519
+      md5: d2a37a7b597b44bda8fab04b4acf56ef
+      size: 6471
     - path: src/evaluate.py
       hash: md5
       md5: 2ed106cd9613381ba6353952f1a100e3
@@ -100,8 +100,8 @@ stages:
       size: 8728
     - path: models/best_model.joblib
       hash: md5
-      md5: d368b697d41e0b3ba7e9a961a55ddc44
-      size: 6519
+      md5: d2a37a7b597b44bda8fab04b4acf56ef
+      size: 6471
     - path: src/explain.py
       hash: md5
       md5: 1b8db1211416cff1ec70747c86ae6981
@@ -109,8 +109,8 @@ stages:
     outs:
     - path: reports/shap_summary.png
       hash: md5
-      md5: 01a783b8b3d4a38d1344448e511af260
-      size: 42143
+      md5: cd4d5f13fd6644ee07f7981565ea9636
+      size: 41932
   fairness:
     cmd: python -m src.fairness
     deps:
@@ -120,8 +120,8 @@ stages:
       size: 8728
     - path: models/best_model.joblib
       hash: md5
-      md5: d368b697d41e0b3ba7e9a961a55ddc44
-      size: 6519
+      md5: d2a37a7b597b44bda8fab04b4acf56ef
+      size: 6471
     - path: src/fairness.py
       hash: md5
       md5: 827ccd1650079890cf355f2a0484f86e
