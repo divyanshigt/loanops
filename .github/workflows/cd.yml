@@ -21,8 +21,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/kavingupta09/loanops:${{ github.sha }}
-            ghcr.io/kavingupta09/loanops:latest
+            ghcr.io/divyanshigt/loanops:${{ github.sha }}
+            ghcr.io/divyanshigt/loanops:latest
       - name: Trigger Render deploy when configured
         env:
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
