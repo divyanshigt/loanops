@@ -1,15 +1,15 @@
 {
   "model": "logistic_regression",
   "metrics": {
-    "accuracy": 0.8617886178861789,
-    "precision": 0.8617021276595744,
-    "recall": 0.9529411764705882,
-    "f1": 0.9050279329608939,
-    "roc_auc": 0.8544891640866873
+    "accuracy": 0.8292682926829268,
+    "precision": 0.872093023255814,
+    "recall": 0.8823529411764706,
+    "f1": 0.8771929824561403,
+    "roc_auc": 0.855108359133127
   },
   "version": "1",
   "alias": "champion",
   "registry_name": "loan_model",
   "decision": "kept_existing_champion",
-  "training_date": "2026-11-19T15:08:06.076280+00:00"
+  "training_date": "2026-11-20T04:01:03.825748+00:00"
 }
