@@ -146,4 +146,3 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"INVALID: {exc}", file=sys.stderr)
         raise SystemExit(1)
-    
